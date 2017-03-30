@@ -10,6 +10,9 @@
 		9F4AA5E81E8DB5FF0007F889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4AA5E71E8DB5FF0007F889 /* AppDelegate.swift */; };
 		9F4AA5EA1E8DB5FF0007F889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4AA5E91E8DB5FF0007F889 /* Assets.xcassets */; };
 		9F4AA5ED1E8DB5FF0007F889 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4AA5EB1E8DB5FF0007F889 /* MainMenu.xib */; };
+		9F4AA5F51E8DB6A00007F889 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4AA5F41E8DB6A00007F889 /* PopViewController.xib */; };
+		9F4AA5F71E8DB78F0007F889 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4AA5F61E8DB78F0007F889 /* EventMonitor.swift */; };
+		9F4AA5F91E8DB8300007F889 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4AA5F81E8DB8300007F889 /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		9F4AA5E91E8DB5FF0007F889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F4AA5EC1E8DB5FF0007F889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9F4AA5EE1E8DB5FF0007F889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4AA5F41E8DB6A00007F889 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
+		9F4AA5F61E8DB78F0007F889 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		9F4AA5F81E8DB8300007F889 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				9F4AA5E71E8DB5FF0007F889 /* AppDelegate.swift */,
+				9F4AA5F81E8DB8300007F889 /* PopViewController.swift */,
 				9F4AA5E91E8DB5FF0007F889 /* Assets.xcassets */,
 				9F4AA5EB1E8DB5FF0007F889 /* MainMenu.xib */,
 				9F4AA5EE1E8DB5FF0007F889 /* Info.plist */,
+				9F4AA5F41E8DB6A00007F889 /* PopViewController.xib */,
+				9F4AA5F61E8DB78F0007F889 /* EventMonitor.swift */,
 			);
 			path = "popover-app";
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4AA5F51E8DB6A00007F889 /* PopViewController.xib in Resources */,
 				9F4AA5EA1E8DB5FF0007F889 /* Assets.xcassets in Resources */,
 				9F4AA5ED1E8DB5FF0007F889 /* MainMenu.xib in Resources */,
 			);
@@ -131,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4AA5E81E8DB5FF0007F889 /* AppDelegate.swift in Sources */,
+				9F4AA5F71E8DB78F0007F889 /* EventMonitor.swift in Sources */,
+				9F4AA5F91E8DB8300007F889 /* PopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
