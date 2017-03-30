@@ -9,7 +9,17 @@
 import Cocoa
 
 class PopViewController: NSViewController{
+    
     private var delegate:AppDelegate?
+    
+    override func viewDidAppear() {
+        
+        super.viewDidAppear()
+        
+        //Needed so clicks outside the app trigger
+        //events to close the popover
+        NSApp.activate(ignoringOtherApps: true)
+    }
     
     func setDelegate(_ delegate:AppDelegate){
         
